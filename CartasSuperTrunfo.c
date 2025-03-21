@@ -1,3 +1,6 @@
+
+#include <stdio.h>
+
 int main() {
 
     char carta1, carta2, estado1, estado2;
