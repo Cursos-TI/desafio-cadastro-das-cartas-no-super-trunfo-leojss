@@ -1,9 +1,10 @@
 #include <stdio.h>
  
-//Declaração de todas as variáveis
- 
+
 int main() {
 
+    //Declaração de todas as variáveis
+ 
     char estado1, estado2;
 
     char codigo1[20], nomeCidade1[100];
