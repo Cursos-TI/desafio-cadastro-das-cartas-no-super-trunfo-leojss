@@ -121,7 +121,6 @@ int main() {
     scanf(" %d", &numPontosTuristicos2);
 
     // Exibindo os dados coletados das duas cartas
-
     printf("\n=== Dados das Cartas ===\n");
 
     printf("Carta 1:\n");
