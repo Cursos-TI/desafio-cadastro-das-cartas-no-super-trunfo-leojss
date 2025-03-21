@@ -20,105 +20,70 @@ int main() {
     float area2, pib2;
  
     // Exibi o label "Carta 1:"
-
     printf("Carta 1:\n");
  
     //Solicita e lê a entrada do código do Estado da primeira carta
-
     printf("Digite o estado (A até H): ");
-
     scanf(" %c", &estado1);
-
     getchar(); // Limpar buffer do teclado
  
     //Solicita e lê a entrada do código da primeira carta
-
     printf("Digite o código da Carta: ");
-
     scanf(" %s", codigo1);
-
     getchar(); // Limpar buffer do teclado
  
     //Solicita e lê a entrada da Cidade da primeira carta
-
     printf("Digite o nome da cidade: ");
-
     fgets(nomeCidade1, sizeof(nomeCidade1), stdin);
- 
+
     //Solicita e lê a entrada da população da primeira carta
-
     printf("Digite a população: ");
-
     scanf(" %d", &populacao1);
  
     //Solicita e lê a entrada da área total da primeira carta
-
     printf("Digite a área: ");
-
     scanf(" %f", &area1);
  
     //Solicita e lê a entrada do PIB da primeira carta
-
     printf("Digite o PIB: ");
-
     scanf(" %f", &pib1);
  
     //Solicita e lê o número de pontos turísticos da primeira carta
-
     printf("Digite o número de pontos turísticos: ");
-
     scanf(" %d", &numPontosTuristicos1);
-
     getchar(); // Limpar buffer do teclado
 
     // Exibi o label "Carta 2:"
-
     printf("\nCarta 2:\n");
  
     //Solicita e lê a entrada do código do Estado da segunda carta
-
     printf("Digite o estado (A até H): ");
-
     scanf(" %c", &estado2);
-
     getchar(); // Limpar buffer do teclado
  
     //Solicita e lê a entrada do código da segunda carta
-
     printf("Digite o código: ");
-
     scanf(" %s", codigo2);
-
     getchar(); // Limpar buffer do teclado
  
     //Solicita e lê a entrada da Cidade da segunda carta
-
     printf("Digite o nome da cidade: ");
-
     fgets(nomeCidade2, sizeof(nomeCidade2), stdin);
  
     //Solicita e lê a entrada da população da segunda carta
-
     printf("Digite a população: ");
-
     scanf(" %d", &populacao2);
  
     //Solicita e lê a entrada da área total da primeira carta
-
     printf("Digite a área: ");
-
     scanf(" %f", &area2);
  
     //Solicita e lê a entrada do PIB da segunda carta
-
     printf("Digite o PIB: ");
-
     scanf(" %f", &pib2);
  
     //Solicita e lê o número de pontos turísticos da segunda carta
-
     printf("Digite o número de pontos turísticos: ");
-
     scanf(" %d", &numPontosTuristicos2);
 
     // Exibindo os dados coletados das duas cartas
