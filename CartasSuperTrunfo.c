@@ -122,7 +122,7 @@ int main() {
 
     // Exibindo os dados coletados das duas cartas
 
-    printf("\n=== Informações Coletadas ===\n");
+    printf("\n=== Dados das Cartas ===\n");
 
     printf("Carta 1:\n");
 
